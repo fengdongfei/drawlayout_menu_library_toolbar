@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.saike.tzh.homepage.ui.MainActivity_menudrawer_toolbar">
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="28dp"
+                android:gravity="right"
+                android:onClick="tv_help"
+                android:paddingBottom="3dp"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:paddingTop="3dp"
+                android:text="帮助"
+                android:textColor="@color/login_black_help"
+                android:textSize="14dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/actiivity_circle_yello" />
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="33dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/activity_text_logo" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:gravity="center"
+                android:text="欢迎来到淘智汇"
+                android:textColor="@color/yellw_01"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:id="@+id/layout_root"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="34dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/input_account_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="53dp">
+
+                    <ImageView
+                        android:visibility="invisible"
+                        android:id="@+id/account_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="32dp"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:scaleType="center"
+                        android:src="@drawable/eye_on"/>
+                    <EditText
+                        android:layout_toLeftOf="@+id/account_switch"
+                        android:id="@+id/input_account"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginRight="32dp"
+                        android:background="@null"
+                        android:hint="请输入用户名"
+                        android:inputType="text"
+                        android:maxLength="11"
+                        android:textColor="@color/gray_03"
+                        android:textColorHint="@color/gray_02"
+                        android:textSize="15dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginRight="32dp"
+                        android:background="@color/yellw_01" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/input_password_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="53dp"
+                    android:layout_below="@id/input_account_layout"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginRight="32dp"
+                        android:background="@color/yellw_01" />
+
+
+                    <ImageView
+                        android:id="@+id/pswd_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="32dp"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:scaleType="center"
+                        android:src="@drawable/eye_off"
+                        android:visibility="visible" />
+
+                    <EditText
+                        android:id="@+id/input_password"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginRight="32dp"
+                        android:layout_toLeftOf="@id/pswd_switch"
+                        android:background="@null"
+                        android:hint="请输入密码"
+                        android:maxLength="20"
+                        android:textColor="@color/gray_03"
+                        android:textColorHint="@color/gray_02"
+                        android:textSize="15dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginRight="32dp"
+                        android:background="@color/yellw_01" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"
+                    android:onClick="forgetpassword"
+                    android:text="忘记密码"
+                    android:textColor="@color/login_black_help"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/btn_login"
+                    android:layout_width="fill_parent"
+                    android:layout_height="44dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/red_btn_selector"
+                    android:clickable="true"
+                    android:onClick="login"
+                    android:text="登  录"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/tv_checkphone"
+                    android:gravity="center"
+                    android:layout_marginTop="100dp"
+                    android:textColor="@color/yellw_01"
+                    android:textSize="15dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="25dp"
+                    android:layout_alignParentBottom="true"
+                    android:text="手机验证登录"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--点击空白处收回软键盘-->
+    <com.saike.tzh.widget.KeyboardListenRelativeLayout
+        android:id="@+id/root_my"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
+
+

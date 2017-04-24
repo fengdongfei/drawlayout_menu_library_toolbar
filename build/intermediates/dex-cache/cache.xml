@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_33fed483f1aa77620f2fc5beda5fbf6b61fd5902.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_d8d634ded957df75b5d43c4c2f471df2e1a79f36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_b6eaf4c62583caf909231faf91b0031941eac56d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_bf0a163246fbfc16fbc475d992ede317a40da269.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_71da40cc31a942d8282f2c84170543a9ab0c9a14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_9055760807210add7e797776ca7e8d0443a2d7ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_7a72561aa6d850fd243b687baea2e4552ddaa469.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MiYasika/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/pre-dexed/debug/glide-3.7.0_18b3241d6788f755237da9b8df6f3eb5d4f9ec60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_115a2ea0ce494b953d007cccfa09d69262b55399.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_b4627193b5ca348fab87c15fc8196544773a7e8c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MiYasika/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_98c97adaadef5d5803e5ba589ff26ab2f281b87c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MiYasika/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0_daa391436514f9cd4fbfe05988b2cdf56aa4d339.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/exploded-aar/Tzh/menu_library/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="90612b8f5e718930374a09dda81f584151dd4bfb">
+        <dex dex="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/pre-dexed/debug/Tzh-menu_library-unspecified_1589c428f5f35dfa5147d91808eb19249fd04866.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_ab24808fecd8e9ba343321619114e097ed930d2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/MiYasika/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/MiYasika/Desktop/Democode/Tzh/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_4e108d81560f16a4c05c674585892fe0b9b0f705.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@color/yellw_01"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+            <ImageView
+                android:layout_marginLeft="12dp"
+                android:id="@+id/im_toggle"
+                android:src="@drawable/icon_slide_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <RadioGroup
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerInParent="true">
+                <RadioButton
+                    android:gravity="center_vertical|right"
+                    android:textColor="@color/write"
+                    android:id="@+id/rb_tzh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:text="淘智汇"
+                    android:paddingRight="18dp"
+                    android:checked="true"/>
+                <RadioButton
+                    android:checked="false"
+                    android:gravity="center_vertical|left"
+                    android:textColor="@color/write"
+                    android:id="@+id/rb_mine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:text="我的"
+                    android:paddingLeft="18dp"/>
+            </RadioGroup>
+
+
+            <ImageView
+                android:id="@+id/iv_message"
+                android:layout_marginRight="12dp"
+                android:layout_gravity="right"
+                android:src="@drawable/icon_mesage"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                />
+        </LinearLayout>
+</LinearLayout>
+
